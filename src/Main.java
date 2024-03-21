@@ -19,5 +19,13 @@ public class Main {
         System.out.println("Ingrese precio unitario y cantidad, en ese orden.");
         Scanner teclado = new Scanner((System.in));
         total = 0.0;
+
+        for(int i = 0; i < 3; i++){
+            precioUnitario = teclado.nextDouble();
+            cantidad = teclado.nextInt();
+            subTotal = precioUnitario*cantidad;
+            //System.out.println("SubTotal articulo: " +subTotal);
+            total = total + subTotal;
+        }
     }
 }
