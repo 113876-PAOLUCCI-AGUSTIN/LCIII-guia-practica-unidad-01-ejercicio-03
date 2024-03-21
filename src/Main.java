@@ -27,5 +27,8 @@ public class Main {
             //System.out.println("SubTotal articulo: " +subTotal);
             total = total + subTotal;
         }
+        totalIvaInc = total * 1.21;
+
+        System.out.println("El total de la factura es :" +totalIvaInc);
     }
 }
