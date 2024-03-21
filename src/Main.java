@@ -5,8 +5,19 @@
  * Finalmente, imprimir el total de la factura.
  */
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
+        Double precioUnitario;
+        Integer cantidad;
+        Double subTotal;
+        Double total;
+        Double totalIvaInc;
+
+        System.out.println("Ingrese precio unitario y cantidad, en ese orden.");
+        Scanner teclado = new Scanner((System.in));
+        total = 0.0;
     }
 }
